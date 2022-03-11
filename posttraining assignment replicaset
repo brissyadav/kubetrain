@@ -1,0 +1,3 @@
+Daemonset is used when we required one pod on each node for the same work/type.
+For example tasks like infra level log collection like alarms, events, CPU/Memory resource monitoring etc.
+To avoid (exculde) any node we may use the node selector for deployement condition.
