@@ -1,0 +1,6 @@
+We canuse below options to changes in runtime
+i-> kubectl patch deployment
+ii-> kubectl edit deployments
+
+Below to update the image  with the changes done in runtime
+kubectl set image deployment
