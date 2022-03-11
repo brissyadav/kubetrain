@@ -1,0 +1,5 @@
+Make sure you’re connecting via the public IP, from outside the cluster.
+Check the POD status, it should be running with all containers in service.
+To confirm that a pod is part of the service, examine the corresponding Endpoints object with kubectl get endpoints.
+Check whether you’re connecting to the nodeport exposed by the service and not the target port.
+Try connecting to the pod IP directly to confirm your pod is accepting connections on the correct port.
